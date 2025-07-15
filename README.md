@@ -1,7 +1,9 @@
 # Baldatro Mod for Balatro
 
 Baldatro is a mod that makes all the jokers bald, thats it, enjoy!
-![Update](https://raw.githubusercontent.com/SirMaiquis/Balatro-Baldatro/refs/heads/main/images/thumbnail.jpg)
+
+![Thumbnail](https://raw.githubusercontent.com/SirMaiquis/Balatro-Baldatro/refs/heads/main/images/thumbnail.jpg)
+
 ## Features
 
 - **Makes almost all Jokers bald**: Thats it, not much to say.
