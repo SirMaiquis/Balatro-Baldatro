@@ -1,7 +1,7 @@
 
-# Baldatro
+# Baldatro 1.2
 
-Baldatro is a mod that makes all the jokers bald, that's it. Enjoy!
+Baldatro 1.2 adds 18 new Jokers retextures and its the first mod that adds optional Malverk Support.
 
   
 
@@ -11,56 +11,48 @@ Baldatro is a mod that makes all the jokers bald, that's it. Enjoy!
 
 ## Updates:
 
-  
+- 🆕 **Added Malverk support**: This is the first mod that adds optional Malverk support, if you have Malverk you can use it to manage this textures, if you dont have dont worry, you can still use this mod!.
 
-**Update 1.0**: Initial release.
 
-- First batch of retextured Jokers with glorious baldness.
+- 🆕 **18 New Jokers retextured**:
 
-  
+  - Juggler.
 
-**Update 1.1**: New wave of baldness arrives!
+  - Drunkard.
 
-- 🆕 **13 New Jokers retextured**:
+  - Troubadour.
 
-- Mr. Bones
+  - Shoot the moon.
 
-- Smeared Joker
+  - Blackboard.
 
-- Throwback
+  - Constellation.
 
-- Brainstorm
+  - Lucky Cat.
 
-- The Idol
+  - Hallucination.
 
-- Burglar
+  - Gros Michel.
 
-- Baseball Card
+  - Cavendish.
 
-- Trading Card
+  - Four Fingers.
 
-- Joker Stencil
+  - Diet Cola.
 
-- Blue Joker
+  - Ceremonial Dagger. By @NotoriousTrip
 
-- Riff Raff
+  - Bull. By @NotoriousTrip
 
-- Photograph
+  - Egg. By @NotoriousTrip
 
-  
+  - Hit the Road. By @NotoriousTrip
 
-- 🔧 **Improvements to previous retextures**:
+  - Gift Card. By @NotoriousTrip
 
-- Perkeo
-
-- Chaos the Clown
-
-- Showman
-
-- Swashbuckler
-
-  
+  - Credit Card. By @NotoriousTrip
 
 Stay bald, stay lucky. 🍀
 
-![Update ](https://i.ibb.co/mC8mrvT2/Baldatro-Update.png)
+![Update](https://raw.githubusercontent.com/SirMaiquis/Balatro-Baldatro/refs/heads/main/images/baldatro-update-1.2.png)
+
