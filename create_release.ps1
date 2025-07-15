@@ -49,7 +49,7 @@ Write-Host "  2. Baldatro-$cleanVersionName-TS.zip (full package)" -ForegroundCo
 
 # Check if required files exist
 $requiredFiles = @("assets", "mod.lua")
-$requiredFilesTS = @("CHANGELOG.md", "icon.png", "LICENSE", "manifest.json", "README.md", "mod.lua", "assets")
+$requiredFilesTS = @("CHANGELOG.md", "icon.png", "LICENSE", "manifest.json", "README.md", "mod.lua", "assets", "baldatro.json")
 
 foreach ($file in $requiredFiles) {
     if (-not (Test-Path $file)) {
@@ -91,6 +91,7 @@ try {
     # Copy assets folder and mod.lua to Baldatro folder
     Copy-Item -Path "assets" -Destination $baldatroFolder -Recurse -Force
     Copy-Item -Path "mod.lua" -Destination $baldatroFolder -Force
+    Copy-Item -Path "baldatro.json" -Destination $baldatroFolder -Force
     
     # Create first zip file from temp directory contents
     Compress-Archive -Path "$tempDir1\*" -DestinationPath $zipFileName -Force
@@ -103,7 +104,7 @@ try {
     Write-Host "  - Baldatro/" -ForegroundColor Gray
     Write-Host "    - assets/" -ForegroundColor Gray
     Write-Host "    - mod.lua" -ForegroundColor Gray
-    
+    Write-Host "    - baldatro.json" -ForegroundColor Gray
     Write-Host ""
     Write-Host "Creating full package..." -ForegroundColor Green
     
@@ -112,7 +113,7 @@ try {
     New-Item -ItemType Directory -Path $tempDir2 -Force | Out-Null
     
     # Copy all files for TS package
-    $tsFiles = @("CHANGELOG.md", "icon.png", "LICENSE", "manifest.json", "README.md", "mod.lua")
+    $tsFiles = @("CHANGELOG.md", "icon.png", "LICENSE", "manifest.json", "README.md", "mod.lua", "baldatro.json")
     foreach ($file in $tsFiles) {
         if (Test-Path $file) {
             Copy-Item -Path $file -Destination $tempDir2 -Force
@@ -138,6 +139,7 @@ try {
     Write-Host "  - manifest.json" -ForegroundColor Gray
     Write-Host "  - README.md" -ForegroundColor Gray
     Write-Host "  - mod.lua" -ForegroundColor Gray
+    Write-Host "  - baldatro.json" -ForegroundColor Gray
     Write-Host "  - assets/" -ForegroundColor Gray
     
 }
